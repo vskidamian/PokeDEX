@@ -1,0 +1,41 @@
+p {
+    margin: 0;
+    
+}
+
+.Card {
+    background: #EDEAEA;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0.5em;
+    width: 18%;
+
+}
+.Card__number {
+    margin: 0.5rem;
+    z-index: 10;
+    position: absolute;
+}
+
+.Card__img {
+    text-align: center;
+}
+
+.Card__types {
+    display: flex;
+    align-content: center;
+}
+
+.Card__type {
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.Card__name {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}

@@ -1,0 +1,11 @@
+.navbar {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    height: 10vh;
+}
+
+.nav-logo {
+    align-items: center;
+    margin-top: 10px;
+}
