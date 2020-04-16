@@ -11,4 +11,4 @@ If you want to run a project just go for
 
 📚Pagination of the PokeCards will be improved
 
-Clicking on any Pokemon will show a Card with information about iy
+🧬Clicking on any Pokemon will show a Card with information about iy
