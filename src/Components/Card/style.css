@@ -8,6 +8,7 @@ p {
     border-radius: 10px 10px 0px 0px;
     margin: 0.5em;
     width: 18%;
+    display: table-cell;
 
 }
 .Card__number {
@@ -38,4 +39,50 @@ p {
     text-align: center;
     text-transform: capitalize;
     font-weight: 600;
+}
+
+@media screen and (max-width:1200px) {
+    .Card {
+        position: relative;
+        background: #EDEAEA;
+        border-radius: 10px 10px 0px 0px;
+        margin: 0.5em;
+        display: flex;
+        width: 100%;
+    }
+    .Card__types {
+        display: flexbox;
+    }
+    
+    .Card__type {
+        margin-top: 5px;
+        display: flex;
+        padding: 5px 5px;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .Card__name {
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+        height: 10%;
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .Card__number {
+        position: static;
+        margin: 0.5rem;
+        z-index: 10;
+    }
+    .Card__img {
+        height: 15vh;
+        text-align: center;
+    }
 }

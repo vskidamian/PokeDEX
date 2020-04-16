@@ -9,6 +9,49 @@
     height: 80vh;
 }
 
-.btn {
-    height: 10vh;
+button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 0px 1px 3px 1px #000; 
+}
+.btn-prev {
+    top: 48vh;
+    z-index: 99;
+    position: absolute;
+    cursor: pointer;
+    left: 10vw;
+    
+}
+.btn-next {
+    top: 48vh;
+    z-index: 99;
+    position: absolute;
+    right: 10vw;
+}
+
+
+@media screen and (max-width:768px) {
+    html,body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+        display: block;
+    }
+    button {
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        font-size: 15px;
+        box-shadow: 0px 1px 3px 1px #000; 
+    }
+
 }

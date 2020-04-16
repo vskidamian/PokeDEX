@@ -57,15 +57,20 @@ function App() {
         <NavBar />
         {loading ? <Loading /> : (
           <React.Fragment>
-
-            <div className="flex-container">
-              {pokemonData.map((pokemon, i) => {
-                return <Card key={i} pokemon={pokemon} />
-              })}
-            </div>
-            <div className="btn">
-              <button onClick={prev}>PREV</button>
-              <button onClick={next}>NEXT</button>
+            <div className="main-container">
+              <div className="flex-container">
+                {pokemonData.map((pokemon, i) => {
+                  return <Card key={i} pokemon={pokemon} />
+                })}
+                <div className="btn">
+                  <div className="btn-prev">
+                    <button onClick={prev}><i class="fas fa-angle-left"></i></button>
+                  </div>
+                  <div className="btn-next">
+                    <button onClick={next}><i class="fas fa-angle-right"></i></button>
+                  </div>
+                </div>
+              </div>
             </div>
           </React.Fragment>
         )}
