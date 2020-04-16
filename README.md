@@ -1,5 +1,5 @@
 🚧🏗👷‍♂️ Project is under construction 
-⏳ Work began on April 14 2020
+⏳ Work began on April 15 2020
 
 ## PokeDEX React App - using PokeAPI
 If you want to run a project just go for
